@@ -1,0 +1,7 @@
+fo = open("foo.txt", "w")
+fo.write("python la mot ngon ngu lap trinh tuyet voi:\n Minh cung nghi nhu the!!\n")
+fo.close()
+fo = open("foo.txt", "w")
+print("Ten cua file la:", fo.name)
+print("File da duoc dong hay chua:", fo.closed)
+print("che do truy cap cua file la:", fo.mode)
